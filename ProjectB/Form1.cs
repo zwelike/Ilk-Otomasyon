@@ -103,6 +103,8 @@ namespace ProjectB
             komut.Parameters.AddWithValue("@girisyili", txtgırısyıl.Text);
             komut.Parameters.AddWithValue("@cinsiyet", txtcins.Text);
 
+
+
             try
             {
                 connection.Open();
